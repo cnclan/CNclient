@@ -24,9 +24,9 @@ export default definePatch(({ insertCode, modifyCode, replaceCode }) => {
 
   // Add FX Client version info to the game version window
   modifyCode(`4, 1, new g(__L(), b.c + "<br>" + d.e.f("/changelog")
-    ${insert(` + "<br><br><b>" + "FX Client v" + __fx.version
-      + "<br><a href='https://discord.gg/dyxcwdNKwK' target='_blank'>FX Client Discord server</a>"
-      + "<br><a href='https://github.com/fxclient/FXclient' target='_blank'>Github repository</a></b>"`)} /*...*/)`)
+    ${insert(` + "<br><br><b>" + "CNclient v" + __fx.version
+      + "<br><a href='https://discord.gg/dyxcwdNKwK' target='_blank'>CNclient Discord server</a>"
+      + "<br><a href='https://github.com/cnclan/CNclient' target='_blank'>Github repository</a></b>"`)} /*...*/)`)
   
   // Hide propaganda popup
   insertCode(`/* here */

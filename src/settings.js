@@ -540,10 +540,10 @@ const settingsManager = new (function () {
     ReplayHistoryList,
     function Footer(container) {
       const versionInfo = document.createElement("p");
-      versionInfo.innerText = `FX Client v${versionData.version}`;
+      versionInfo.innerText = `CNclient v${versionData.version}`;
       const links = document.createElement("p");
       links.innerHTML = `<a href="https://discord.gg/dyxcwdNKwK" target="_blank">Discord server</a> |
-        <a href="https://github.com/fxclient/FXclient#readme">Github repository</a>`;
+        <a href="https://github.com/cnclan/CNclient#readme">Github repository</a>`;
       const changelogButton = document.createElement("button");
       changelogButton.innerText = "Changelog";
       changelogButton.addEventListener("click", displayChangelog);
@@ -653,7 +653,7 @@ const settingsManager = new (function () {
   this.exportToFile = function () {
     saveFile(
       JSON.stringify(settings),
-      "FX_client_settings.json",
+      "CN_client_settings.json",
       "application/json"
     );
   };

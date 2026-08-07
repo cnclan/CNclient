@@ -50,4 +50,4 @@ __fx.lobbyReminders = lobbyReminders;
 __fx.pingFilter = pingFilter;
 __fx.nameFilter = nameFilter;
 
-console.log('Successfully loaded FX Client');
+console.log('Successfully loaded CNclient');
