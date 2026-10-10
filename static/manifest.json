@@ -1,6 +1,6 @@
 {
-    "name": "CNclient",
-    "short_name": "CNclient",
+    "name": "FX Client",
+    "short_name": "FXclient",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",

@@ -23,7 +23,7 @@ if (customLobbiesUnavailable) {
         name: "customLobbiesUnavailable",
         closeWithButton: true
     });
-    window.innerHTML =  `<p>The latest version of CNclient doesn't support custom lobbies yet. Use the stable version at <a href="https://cnclan.github.io/CNclient/">https://cnclan.github.io/CNclient/</a></p>`;
+    window.innerHTML =  `<p>The latest version of FX Client doesn't support custom lobbies yet. Use the stable version at <a href="https://fxclient.github.io/custom-lobbies/">https://fxclient.github.io/custom-lobbies</a></p>`;
 }
 
 const windowElement = WindowManager.create({

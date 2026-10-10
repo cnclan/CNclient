@@ -49,7 +49,7 @@ function check() {
         if (!matchesFilters(rules, game)) continue;
         state.reminded = key;
         const description = describeGame(game);
-        console.log(`CNclient lobby reminder: ${description} (starts in ${timeLeft}s)`);
+        console.log(`FX lobby reminder: ${description} (starts in ${timeLeft}s)`);
         showPopup?.(`Reminder: ${description}`);
         playReminderSound();
     }
